@@ -1,0 +1,20 @@
+{
+    "name": "vda/multiprocess",
+    "version": "0.1",
+    "type": "library",
+    "description": "Handy pcntl wrapper",
+    "keywords": ["pcntl"],
+    "require": {
+        "php": ">=5.5",
+        "ext-pcntl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "psr/log": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vda\\Multiprocess\\": "src/"
+        }
+    }
+}
